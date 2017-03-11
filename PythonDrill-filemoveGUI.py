@@ -82,7 +82,8 @@ class ParentWindow(Frame):
         self.btn_dest.grid(row=1, column=5, columnspan=2, pady=(5,0), sticky='e')
 
             #TRANSFER:
-        arrow = PhotoImage(file='/Users/anniebowman/Documents/DEVELOPMENT/TechAcademy/PROJECTS/Python_Projects/FileTransfer_Drill/stock_folder-move.gif').subsample(4,4)
+        arrow = PhotoImage(file='/Users/anniebowman/Documents/DEVELOPMENT/TechAcademy/PROJECTS/Python_Projects/'
+                           'FileTransfer_Drill/stock_folder-move.gif').subsample(4,4)
         self.btn_transfer = tk.Button(self.master, text='TRANSFER', image=arrow, compound=TOP,
                                     highlightbackground='#888888', foreground='#000066',
                                     font=('Helvetica',14,'bold'),command=lambda:file_transfer(self))
