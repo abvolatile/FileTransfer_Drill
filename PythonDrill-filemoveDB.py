@@ -3,9 +3,10 @@
 # AUTHOR:   Annie M Bowman
 # PURPOSE:  Tech Academy Python Course DRILL Item #66
 #           Add database table using sqlite to file transfer
-#           program/GUI that records date and time for each
-#           daily file check and transfer, and display date and 
-#           time of most recent file check/transfer on GUI.
+#           program/GUI that records and displays date and time
+#           for most recent daily file check and transfer, and 
+#           changes time period of file check to be since last
+#           transfer.
 # OS TEST:  Written and tested on MacOS Sierra v10.12.3
 
 import os
