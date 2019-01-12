@@ -6,6 +6,8 @@ The purpose was to create a script that would check a directory for new and rece
 (done within the last 24 hours), and move only those files to another folder where they could be sent
 to the 'home office' once daily.
 
+![filemover image](http://www.anniebowman.com/images/python-filemover.png)
+
 *The filemove purpose (to be written in version 2.7):
 Write a program that moves 4 .txt files from Folder A to Folder B 
 and print transfer path of each moved file to the shell.
